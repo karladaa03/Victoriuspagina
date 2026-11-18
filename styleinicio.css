@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@media screen {max-width 700px; ;}
+h5{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color: #de0c7b;
+    font-size:16px;
+    margin-top: 6px;
+    margin-left: 10px;
+    padding-right: 2px;
+}
+
+h4{
+    margin-top: 6px;
+    margin-left: 10px;
+    padding-right: 2px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size:14px;
+    color: #5e06e1
+
+}
+
+p{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color: #000000;
+    font-size:16px;
+}
+
+body {
+    background-image: url(img/Siko\ fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ 
+ 
+header {
+background-image: url(img/encabezado.png);
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 115px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+z-index: 100;
+margin-right: 10%;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+ 
+.logo {
+height: 90px;
+width: auto;
+}
+ 
+.personajesjes {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 120px;
+padding-right: 10;}
+ 
+.personajesjes a {
+text-decoration: none;}
+
+
+p{color: white;}
+ 
+
+ 
+.personajes a {
+text-decoration: none;}
+
+.fondoinfo{z-index: 4;
+margin-left: 30%;
+margin-top:10% ;}
+
+#quizinfo{z-index:6;
+margin-top: -11%;
+position: absolute;
+width: 210px;
+text-align: end;
+margin-left: 61%;
+color: white;
+
+}
+
+
+
+.boton-quiz {
+    position: fixed;       
+    right: 0;              
+    top: 50%;              
+    transform: translateY(-50%);  
+    z-index: 9999;         
+    display: block;        
+    transition: transform 0.3s ease; 
+}
+.boton-quiz img {
+    width: 150px;        
+    height: auto;
+    display: block;
+}
+.boton-quiz:hover { 
+    transform: translateY(-50%) scale(1.05);
+}
+
+.sikowitz {
+    position: absolute;
+    left: 6%;
+    top: 10%;
+    width: 210px;
+    height: 377px;
+    padding: 20px;
+    border: 4px solid #fffe90;
+    background: #baebff;
+    background: linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    background: -webkit-linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    background: -moz-linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.sikowitz h6{
+    text-align: left;
+    color: #091b4c;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size:12px;   
+}
+.sikowitz h2{
+    text-align: center;
+    color: #000000;
+    margin-top: 0%;
+    margin-bottom: 4%;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color: #000000;
+    font-size:23px;
+}
+.sikowitz p{
+    text-align: center;
+    color: #000000;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color: #000000;
+    font-size:16px;
+    text-align: left;
+}
+.sikowitz img{
+    width: 120px;        
+    height: auto;
+}
+
+.estado{
+    background-color: #7de0fe;
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    width: 249px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    margin-right: 3px;
+    border: 4px solid #fffe90;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 10%;
+   
+}
+.emoji1{
+    width: 25px;  
+    height: 27px;
+    left: 50px;
+}
+.estado h5, .estado h6 {
+    align-items: center;
+}
+
+.victorius {
+    position: absolute;
+    left: 16%;
+    top: 60%;
+    width: 800px;
+    padding: 20px;
+    border: 4px solid #fffe90;
+    background: #baebff;
+    background: linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    background: -webkit-linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    background: -moz-linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-bottom: 20%;
+}
+.victorius p {
+    text-align: left;
+    color: #000000;
+}
+
+.personajes {
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 6%;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.personajes img{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+ h3 {
+color: #fffe90;
+font-weight: 600;
+}
+footer {
+   
+    background-image: url("img/pie.png");
+    width: 100%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.logo2 {
+    width: 650px;
+    height: 130px;
+    padding-top: 5%;
+    display: block; 
+    margin: 0 auto;
+}
+ 
+h6 {
+    color: #fffe90;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+ 
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espacio limpio entre ĆĀ­conos */
+    padding: 10px 0;
+    width: 100%;
+}
+.iconos img {
+    width: 35px;
+    height: 30px;
+}
